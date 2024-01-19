@@ -1,6 +1,4 @@
-* {
-    width: 1058px auto;
-    padding: 0;
+* { padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: none;
@@ -196,6 +194,9 @@ svg {
 .sec-banner {
     text-align: center;
 }
+.sec-banner h2 {
+    padding-bottom: 1rem;
+}
 
 /* section mantaining*/
 #down-sec {
@@ -296,8 +297,7 @@ span {
     justify-content: center;
 }
 
-#background-img {
-}
+/* section 5 */
 
 #background-img ul {
     display: flex;
@@ -347,7 +347,7 @@ span {
     font-weight: 300;
     text-transform: none;
     text-wrap: wrap;
-    padding: 3rem 0 1rem 2rem
+    padding: 2rem 0rem 1rem 2rem;
 }
 #background-img div {
     text-align: left;
@@ -375,4 +375,16 @@ span {
 }
 .btn {
     margin: 1rem;
+}
+
+/* footer style */
+
+footer {
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+.footer-all {
+    display: flex;
+    flex-direction: row;
 }
