@@ -44,7 +44,7 @@ nav .container {
 
 #search-bar input {
     background-color: transparent;
-    width: 30vw;
+    width: 26rem;
     margin-left: 1rem;
     font-size: 1rem;
     color: rgb(70, 67, 67);
@@ -54,6 +54,7 @@ nav .container {
 .side-nav {
     display: flex;
     align-items: center;
+    margin-left: 6rem;
 }
 
 .side-nav a {
@@ -63,7 +64,8 @@ nav .container {
 }
 
 #page-logo img {
-    width: 13rem;
+    width: 9rem;
+    margin-right: 5rem ;
 
 }
 
@@ -85,12 +87,12 @@ nav .container {
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
-    margin: 0rem 8rem;
     font-size: 1rem;
+    margin-top: -2rem;
 }
 
 .menublock {
-    margin: 1.5rem;
+    margin: 1.8rem;
 }
 
 /* section style */
@@ -230,8 +232,8 @@ span {
 }
 
 .products-2 li img {
-    width: 8rem;
-    height: 8rem;
+    width: 100%;
+    height: auto;
 }
 
 .products-2 li h4 {
@@ -262,15 +264,15 @@ span {
     margin-top: -9rem;
 }
 #last li img {
-    width: 9rem;
-    height: 10rem;
+    width: 50%;
+    height: auto;
     align-items: center;
     object-fit: fill;
 }
 
 #products-collection img {
-    width: 10rem;
-    height: 8rem;
+    width: 40%;
+    height: auto;
     align-items: center;
 }
 
@@ -340,7 +342,7 @@ span {
 }
 
 #background-img p {
-    width: 58%;
+    width: 19rem;
     text-align: left;
     font-size: 29px;
     color: white;
@@ -380,11 +382,82 @@ span {
 /* footer style */
 
 footer {
-    background-color: black;
+    background-color: #353332;
     padding: 2rem;
     color: white;
+    justify-content: center;
 }
 .footer-all {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+.logo-footer img {
+    width: 12rem;
+    height: 2rem;
+}
+.footer-left {
+    width: 26rem;
+}
+
+.footer-left p {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+.footer-left h3 {
+    padding: 1rem 1rem 1rem 0rem;
+    font-weight: 400;
+}
+
+.footer-left h3 img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.footer-left input {
+    background-color: transparent;
+    width: 24rem;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 0.5rem;
+}
+.email h3 {
+    font-size: 1.6rem;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-right {
+    width: 40rem;
+}
+
+.about-us {
+    margin: 0.5rem;
+}
+.about-us h3 {
+    margin: 2rem 2rem 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.about-us a {
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+    font-size: 15px;
+    
+}
+.about-us a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.div-2 div {
+    margin: 0.5rem;
 }
