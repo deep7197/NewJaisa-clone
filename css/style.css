@@ -261,15 +261,15 @@ span {
     margin-top: -9rem;
 }
 #last li img {
-    width: 7rem;
-    height: 11rem;
+    width: 9rem;
+    height: 10rem;
     align-items: center;
     object-fit: fill;
 }
 
 #products-collection img {
-    width: 7rem;
-    height: 11rem;
+    width: 10rem;
+    height: 8rem;
     align-items: center;
 }
 
@@ -316,6 +316,8 @@ span {
     margin-bottom: 1rem;
     border-radius: 8px;
     object-fit: fill;
+    display: block;
+    justify-self: start;
     
 }
 
@@ -338,17 +340,39 @@ span {
 }
 
 #background-img p {
-    margin-left: -186px;
+    width: 58%;
     text-align: left;
-    padding: 3rem;
     font-size: 29px;
     color: white;
     font-weight: 300;
     text-transform: none;
-    width: 24rem;
+    text-wrap: wrap;
+    padding: 3rem 0 1rem 2rem
 }
+#background-img div {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+#background-img a {
+    text-decoration: none;
+    background-color: #0066a9;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 4px;
+    text-align: left;
+    font-weight: 600;
+}
+#background-img a:hover {
+    background-color: #0c3d5e;
+    transition: 0.5s;
+}
+
 
 #background-img span {
     margin: 0;
     font-weight: 400;
+}
+.btn {
+    margin: 1rem;
 }
