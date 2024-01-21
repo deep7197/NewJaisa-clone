@@ -94,11 +94,19 @@ nav .container {
     margin: 1.8rem;
 }
 
+#section2 ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
 #section2 ul li:hover .sub-menu {
     display: block;
     position: absolute;
     background-color: white;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem 2rem 1rem 2rem;
     box-shadow: 3px 3px 6px rgb(243, 242, 242) ;
     transition: 5s;

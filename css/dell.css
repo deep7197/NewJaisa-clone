@@ -1,3 +1,117 @@
+main {
+    background-color: rgb(249, 249, 249);
+}
+#section-width {
+    width: 69rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.upper-section ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 2rem;
+    
+}
+.upper-section li {
+    padding: 0.5rem;
+}
+.upper-section span {
+    padding: 0.5rem;
+    color: #999;
+}
+
+.upper-section a {
+    text-decoration: none;
+    color: #999;
+}
+
+
+
+
+/* after image */
+
+.top-side ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.top-side li {
+    margin: 1rem;
+}
+
 .top-side {
     color: #333;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-side img {
+    width: 100%;
+    height: 25rem;
+}
+
+.top-side li h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.top-side h4 {
+    margin-bottom: 3rem;
+}
+.banner-1 {
+    border: 1px solid rgb(15, 190, 122);
+    width: 41rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+
+}
+
+.banner-1 li {
+    padding: 0.5rem;
+}
+.logo-b img {
+    width: 7rem;
+    height: auto;
+}
+.icon-1 img {
+    width: 2rem;
+    height: auto;
+}
+
+.banner-1 p {
+    font-size: 1.1rem;
+}
+
+.dis-price p {
+    border-radius: 0.4rem;
+    background: rgb(15, 190, 122);
+    padding: 0.5rem;
+}
+
+.Configure-text {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+#Configure-system {
+    padding: 1rem 36.5rem 1rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+#Configure-system option {
+    background-color: transparent;
+}
+
+#Configure-system-2 {
+    padding: 1rem 33.7rem 1rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.Configure-system {
+    margin-top: 1rem;
 }
