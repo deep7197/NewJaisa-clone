@@ -159,6 +159,11 @@ span {
     margin-left: -2rem;
 }
 
+.products-2 a {
+    text-decoration: none;
+    color: black;
+}
+
 #products-collection {
     display: flex;
     flex-wrap: wrap;

@@ -5,7 +5,6 @@
     border: none;
     text-transform: capitalize;
     font-family: urbanist, sans-serif;
-    justify-content: center;
 }
 
 header {
@@ -122,6 +121,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 2.5rem;
+    justify-content: center;
 }
 
 .logo-footer img {
@@ -146,8 +146,8 @@ footer {
     height: 1.5rem;
     margin-left: 1rem;
 }
-.footer-left input {
-    background-color: transparent;
+
+.email {
     width: 24rem;
     font-size: 1rem;
     color: white;
@@ -155,7 +155,11 @@ footer {
     padding: 7px;
     border-radius: 0.5rem;
 }
-.email h3 {
+.footer-left input {
+    width: 20rem;
+    background-color: transparent;
+}
+.footer-left h3 {
     font-size: 1.6rem;
 }
 .footer-right {
@@ -192,12 +196,15 @@ footer {
     margin: 0.5rem;
 }
 
-.last-line {
+.last-line div {
     background-color: #353332;
     color: white;
-    border: 1px solid white;
-}
-
-.last-line p {
+    border-top: 1px solid white;
+    padding: 2rem;
     text-align: center;
+    width: 68rem;
+    margin: auto;
+}
+.email button {
+    background-color: transparent;
 }
