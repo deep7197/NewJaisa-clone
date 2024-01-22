@@ -172,21 +172,41 @@ main {
     font-weight: 500;
 }
 
-.image-icon {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.logo-img{
-    margin: 0 1rem;
-}
-.logo-img img {
-    width: 2rem;
-    height: auto;
-    margin: 2rem 0;
+.img-w {
+    justify-content: center;
 }
 
-.logo-img div {
-    width: 7rem;
+.img-w ul img{
+    width: 2rem;
+    height: auto;
+    margin-bottom: 1rem;
+
+}
+.img-w li {
+    margin: 2rem auto;
+}
+.img-w ul li div {
+    width: 4rem;
+}
+
+.cod-sec p {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.cod-pin {
+    margin: 0.5rem auto auto 0.5rem;
+}
+
+.cod-pin input {
+    width: 38vw;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+}
+
+.cod-pin button {
+    border: 1px solid;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+    margin: 1rem;
 }
