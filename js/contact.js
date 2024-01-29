@@ -7,6 +7,10 @@ function inputChanges(event) {
     let etL = et.length;
     let rc = maxinput - etL;
     inputR.textContent = rc;
+    if (rc === 0){
+        inputR.classList.add("error")
+        inputname.classList.add("error")
+    }
 }
 
 inputname.addEventListener("input",inputChanges)
