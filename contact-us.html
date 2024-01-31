@@ -21,70 +21,60 @@
 
 <body>
     <header>
-        <section>
-            <nav>
-                <div class="container">
-                    <div id="page-logo">
-                        <a href="index.html"><img src="css/image/icon/logo.jpg" alt=""></a>
-                    </div>
-                    <div id="search-bar">
-                        <input type="search" name="search" id="searchin">
-                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                    </div>
-                    <div class="side-nav">
-                        <a href="index.html">account</a>
-                        <a href="index.html">wishlist</a>
-                        <a href="index.html">cart(0)</a>
-                    </div>
+        <section class="header-container">
+            <div class="header-top">
+                <div id="page-logo">
+                    <a href="index.html"><img src="css/image/icon/logo.jpg" alt=""></a>
                 </div>
-                <div><a href="#side-drawer" class="menu-btn"> <span></span> <span> </span> <span> </span></a></div>
-            </nav>
-
-            <section id="section2">
-                <ul id="menu">
-                    <li class="menublock">
+                <div id="search-bar">
+                    <input type="search" name="search" id="searchin">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <nav class="side-nav">
+                    <a href="index.html">account</a>
+                    <a href="index.html">wishlist</a>
+                    <a href="index.html">cart(0)</a>
+                </nav>
+            </div>
+                <div class="down-menu">
+                    <div class="product-hover">
                         <a href="index.html">all products</a>
                         <div class="sub-menu">
-                            <ul>
-                                <li>
                                     <a href="product-list.html">dell</a>
-                                </li>
-                            </ul>
                         </div>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">chrome PCs</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">monitors</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">laptops</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">business</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">accessories</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">company</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="">news</a>
-                    </li>
-                    <li class="menublock">
+                    </div>
+                    <div>
                         <a href="contact-us.html">contact us</a>
-                    </li>
-
-                </ul>
-            </section>
+                    </div>
+            </div>
         </section>
 
     </header>
     <main>
         <div class="form-contaner">
-            <form action="">
+            <Span id="topcontent" class="textC"></Span>
+            <form  onsubmit = "return dataf()" action="">
                 <div class="icon-c">
                     <a href="index.html"><img src="css/image/icon/logo.jpg" alt="Newjaisa logo"></a>
                 </div>
@@ -93,21 +83,25 @@
                     <label for="full-name">Full Name</label>
                     <input type="text" id="full-name" placeholder="Full Name" maxlength="20">
                     <span><span id="remaning-1">20</span>/20</span>
+                    <div id="fullnameT" class="textC"></div>
                 </div>
                 <div class="space">
                     <label for="email">Email</label>
                     <input type="email" id="email" placeholder="Enter your Email" maxlength="30">
                     <span><span id="remaning-2">30</span>/30</span>
+                    <div id="emailT" class="textC"></div>
                 </div>
                 <div class="space">
                     <label for="mobile">Mobile</label>
                     <input type="number" id="mobile" placeholder="Mobile Number" maxlength="10"><span><span
                             id="remaning-3">10</span>/10</span>
+                            <div id="mobileT" class="textC"></div>
                 </div>
                 <div class="space">
-                    <label for="massege">Massege</label>
-                    <textarea name="massege" id="massege" cols="30" rows="10" placeholder="Enter your massege"
+                    <label for="messege">Messege</label>
+                    <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Enter your messege"
                         maxlength="60"></textarea><span><span id="remaning-4">120</span>/120</span>
+                        <div id="messegeT" class="textC"></div>
                 </div>
                 <div class="btn-all">
                     <button type="submit" id="btn-1">Submit</button>

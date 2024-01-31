@@ -5,36 +5,24 @@
 
 .form-contaner {
     width: 50%;
-    margin: 2rem 20rem;
+    margin: 2rem auto;
     border: 2px solid black;
     padding: 8px;
-    background-color: #b6b6b6;
-    box-shadow: 4px 4px 4px #666464;
+    background-color:#c2c0c0;
     border-radius: 4px;
     justify-content: center;
 }
 
 form {
     padding: 4px 22px 4px 4px;
-    box-shadow: 0px 7px 12px #00000029;
 }
 
-form:hover {
-    box-shadow: 0px 14px 24px #00000029;
-    transition: 1s;
-}
 
 .icon-c img {
     width: 8rem;
     height: auto;
     padding: 3px;
-    box-shadow: 4px 4px 4px #666464;
 
-}
-
-.icon-c img:hover {
-    box-shadow: none;
-    transition: 1s;
 }
 
 form h1 {
@@ -62,11 +50,11 @@ form h1 {
     margin-right: 2px;
     color: #4e4d4d;
     margin-top: 4px;
-    background-color: #c4c2c2;
+    background-color: rgb(248, 248, 248);
 }
 
 .space input:hover {
-    background-color: #e4d4d4;
+    background-color:white;
     box-shadow: 4px 4px 4px #666464;
     transition: 1s;
 }
@@ -82,11 +70,11 @@ form h1 {
     margin-right: 2px;
     color: #4e4d4d;
     margin-top: 4px;
-    background-color: #c4c2c2;
+    background-color: #f8f8f8;
 }
 
 .space textarea:hover {
-    background-color: #e4d4d4;
+    background-color: white;
     box-shadow: 4px 4px 4px #666464;
     transition: 1s;
 }
@@ -98,7 +86,7 @@ form h1 {
 #btn-1 {
     padding: 8px 20px;
     margin: 15px 4px;
-    background-color: #5858ff;
+    background-color: #16b5d8;
     border: none;
     box-shadow: 4px 4px 4px #666464;
     border-radius: 6px;
@@ -108,20 +96,20 @@ form h1 {
 #btn-2 {
     padding: 8px 20px;
     margin: 15px 4px;
-    background-color: #ff5353;
+    background-color: #1077b6;
     border: none;
     box-shadow: 4px 4px 4px #666464;
     border-radius: 6px;
 }
 
 #btn-1:hover {
-    background-image: linear-gradient( #5858ff,#1b1bfa);
+    background-color: rgb(16, 119, 184);
     box-shadow: none;
     transition: 1s;
 }
 
 #btn-2:hover {
-    background-image: linear-gradient( #ff5353, #fc2727);
+   background-color: #0a70af;
     box-shadow: none;
     transition: 1s;
 }
@@ -142,3 +130,9 @@ input.warning {
   #remaining-char.error {
     color: #ff0a0a;
   }
+  
+  .textC {
+    font-weight: 600;
+    color: rgb(241, 60, 60);
+  }
+  
